@@ -12,6 +12,10 @@ public class Lacteo extends Producto
         this.proteinas = proteinas;
     }
 
+    public Lacteo() {
+
+    }
+
     public int getCantidad() {
         return cantidad;
     }
@@ -28,6 +32,7 @@ public class Lacteo extends Producto
         this.proteinas = proteinas;
     }
 
+    /*
     @Override
     public String toString() {
         return "Lacteo{" +
@@ -35,4 +40,6 @@ public class Lacteo extends Producto
                 ", proteinas=" + proteinas +
                 '}';
     }
+
+     */
 }
