@@ -32,7 +32,6 @@ public class Lacteo extends Producto
         this.proteinas = proteinas;
     }
 
-    /*
     @Override
     public String toString() {
         return "Lacteo{" +
@@ -41,5 +40,5 @@ public class Lacteo extends Producto
                 '}';
     }
 
-     */
+
 }

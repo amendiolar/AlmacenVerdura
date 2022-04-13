@@ -1,13 +1,20 @@
 import AlmacenVerdura.Lacteo;
+import AlmacenVerdura.Producto;
 
+import java.util.List;
 import java.util.Scanner;
 
 public class MainTest
 {
-    private static void main(String[] args)
+
+    public static void main(String[] args)
     {
         Scanner scanner = new Scanner(System.in);
+
         Lacteo lacteo;
+
+        String arr [] = {};
+        arr = new String[8];
 
         for (int i =0; i<2; i++)
         {
@@ -24,6 +31,12 @@ public class MainTest
             System.out.println();
             scanner.nextLine();
 
+            arr [i]=  lacteo.getNombre() + ", " + lacteo.getPrecio() + ", " + lacteo.getCantidad() + ", " + lacteo.getProteinas();
+
         }
+
+        System.out.println(String.valueOf(arr));
+
+
     }
 }
